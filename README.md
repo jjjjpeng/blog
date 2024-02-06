@@ -69,7 +69,7 @@
 ## 📥 Start
 
 ```bash
-git clone https://github.com/kuizuo/blog.git
+git clone https://github.com/jjjjpeng/blog.git
 cd blog
 pnpm install
 pnpm start
