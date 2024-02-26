@@ -12,7 +12,7 @@ const config: Config = {
   url: 'https://thlu.vip',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'kuizuo',
+  organizationName: 'thlu',
   projectName: 'blog',
   customFields: {
     bio: '道阻且长，行则将至',
@@ -27,7 +27,7 @@ const config: Config = {
     metadata: [
       {
         name: 'keywords',
-        content: '糖葫卢, kuizuo',
+        content: '糖葫卢, thlu',
       },
       {
         name: 'keywords',
@@ -121,13 +121,13 @@ const config: Config = {
         <p style="display: inline-flex; align-items: center;"><img style="height:20px;margin-right: 0.5rem;" src="/img/police.png" alt="police" height="20"/><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=${beian1.match(
           /\d+/,
         )?.[0]}" >${beian1}</a></p>
-        <p>Copyright © 2020 - PRESENT 糖葫卢 Built with Docusaurus.</p>
+        <p>Copyright © 2024 - PRESENT 糖葫卢 Built with Docusaurus.</p>
         `,
     },
     algolia: {
       appId: 'GV6YN1ODMO',
       apiKey: '50303937b0e4630bec4a20a14e3b7872',
-      indexName: 'kuizuo',
+      indexName: 'thlu',
     },
     prism: {
       theme: themes.oneLight,
@@ -157,7 +157,7 @@ const config: Config = {
       ],
     },
     giscus: {
-      repo: 'kuizuo/blog',
+      repo: 'thlu/blog',
       repoId: 'MDEwOlJlcG9zaXRvcnkzOTc2MjU2MTI=',
       category: 'General',
       categoryId: 'DIC_kwDOF7NJDM4CPK95',
@@ -222,7 +222,7 @@ const config: Config = {
       {
         path: 'blog',
         editUrl: ({ locale, blogDirPath, blogPath, permalink }) =>
-          `https://github.com/kuizuo/blog/edit/main/${blogDirPath}/${blogPath}`,
+          `https://github.com/thlu/blog/edit/main/${blogDirPath}/${blogPath}`,
         editLocalizedFiles: false,
         blogDescription: '代码人生：编织技术与生活的博客之旅',
         blogSidebarCount: 10,
