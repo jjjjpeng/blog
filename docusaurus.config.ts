@@ -4,7 +4,7 @@ import { themes } from 'prism-react-renderer'
 import { GiscusConfig } from './src/components/Comment'
 import social from './data/social'
 
-const beian = '闽ICP备2022000924号-1'
+const beian = '闽ICP备2022000924号'
 const beian1 = '闽公网安备35021302000465号'
 
 const config: Config = {
